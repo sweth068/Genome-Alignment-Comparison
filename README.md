@@ -3,6 +3,8 @@ Comparative Analysis of Alignment Tools on Diverse Genomic Data: Bowtie2, BWA, M
 
 This README file provides an overview of the scripts used for generating plots and tables from alignments performed using three different tools (Bowtie2, BWA, Minimap) on two reference genomes and a negative control.
 
+The objective is to conduct a comprehensive performance comparison of wellestablished alignment tools, such as Bowtie2 and BWA-mem, against the more recently developed Minimap2 (introduced in 2020). This comparative analysis is carried out using metagenomic data sourced from the Pacific Ocean. The data is aligned against two reference genomes, namely Citromicrobium sp. JL477 and Mycolicibacterium poriferae, with Thermus aquaticus serving as the negative control in this study. The analytical approach involves the visualization of aligned data through various graphical representations, including Coverage Plot, GC Content Bias Plot, Mapping Quality vs Coverage Plot, and Percentage Identity Plot. Additionally, the study aims to generate summary alignment tables, including key metrics such as Alignment Summary Table, Coverage Statistics, Mapping Distribution Table, Base Quality Distribution Table, and Mismatch Distribution Table. This approach aims to provide a comprehensive understanding of the alignment tools' performance across diverse genomic contexts.
+
 Bash Scripts
 Plot Generation Scripts
 1. Bowtie2 Plot Script: bowtie_plot_script.sh
